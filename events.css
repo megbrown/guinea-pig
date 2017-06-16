@@ -1,0 +1,25 @@
+.blue {
+	color: blue;
+}
+.hulkify {
+	font-size: 5em;
+}
+.border {
+	border: 2px solid black;
+}
+.rounded {
+	border-radius: 10px;
+}
+/*The first section's text should be bold.*/
+section:first-child {
+	font-weight: 900;
+}
+/*The last section's text should be bold and italicized.*/
+section:last-child {
+	font-weight: 900;
+	font-style: italic;
+}
+/*Make the buttons stop appearing next to each other as inline elements. Change them into block elements.*/
+button {
+	display: block;
+}
